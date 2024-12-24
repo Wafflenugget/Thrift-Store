@@ -1,0 +1,81 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background: #ffcc66;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+#items {
+    padding: 20px;
+}
+
+#items h2 {
+    text-align: center;
+    color: #ff9900;
+}
+
+.item {
+    background: white;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    text-align: center;
+}
+
+.item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.item h3 {
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+.item p {
+    margin: 5px 0;
+}
+
+#contact {
+    padding: 20px;
+    text-align: center;
+    background: #ffcc66;
+}
+
+#contact h2 {
+    color: #333;
+}
+
+#contact a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+}
